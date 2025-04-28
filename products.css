@@ -1,0 +1,65 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* ====== Título de la página ====== */
+  .page-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 40px 0 30px;
+    color: #2c3e50;
+  }
+  
+  /* ====== Cuadrícula de productos ====== */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    padding: 0 40px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* ====== Tarjeta de producto ====== */
+  .product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+  
+  /* ====== Textos del producto ====== */
+  .product-card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0 6px;
+    color: #2c3e50;
+  }
+  
+  .product-card p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .product-card strong {
+    color: #111;
+  }
+  
